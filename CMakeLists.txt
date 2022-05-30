@@ -11,7 +11,7 @@ set(SOURCES
 )
 
 add_library(imgui ${SOURCES})
-target_include_directories(imgui PRIVATE 
+target_include_directories(imgui PUBLIC 
 	${CMAKE_CURRENT_SOURCE_DIR}/include/imgui
 	${CMAKE_CURRENT_SOURCE_DIR}/
 )
